@@ -1,18 +1,3 @@
-A professional README.md is the first thing employers see. It shouldn't just say how to run the code, but why you built it and what logic makes it special.
-
-Here is a ready-to-use Markdown template tailored for your specific "Smart Logic" version. You can copy-paste this directly into your GitHub.
-
-How to Add This:
-Go to your repository on GitHub.
-
-Click Add file -> Create new file.
-
-Name the file: README.md (Must be all caps).
-
-Paste the content below.
-
-Click Commit changes.
-
 🌦️ Smart Weather & Outfit Assistant
 A Python-based CLI tool that fetches real-time weather data and uses context-aware logic to suggest the perfect outfit. Unlike standard weather apps, this tool analyzes humidity, wind speed, and "feels like" temperatures to provide safety and comfort advice specifically tuned for tropical climates.
 
