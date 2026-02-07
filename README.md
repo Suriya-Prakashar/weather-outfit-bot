@@ -77,7 +77,7 @@ Uses sunrise < current_time < sunset to determine if sunglasses are actually nee
 
 └── README.md         # Project documentation
 
-##Future Improvements
+## Future Improvements
 
 [ ] Add a GUI using Tkinter or Streamlit.
 
