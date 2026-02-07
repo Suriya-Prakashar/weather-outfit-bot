@@ -22,24 +22,37 @@ Security: .gitignore & Environment Variables
 ## Installation & Setup
 Clone the repository
 # Bash
+
 git clone https://github.com/YOUR_USERNAME/weather-outfit-bot.git
+
 cd weather-outfit-bot
+
 Install dependencies
 
 # Bash
+
 pip install requests python-dotenv
+
 Configure API Key
+
 Sign up at OpenWeatherMap to get a free API key.
+
 Rename the example config file:
 
 # Bash
+
 mv .env.example .env
+
 Open .env and paste your key:
+
 Ini, TOML
+
 WEATHER_API_KEY=your_actual_api_key_here
+
 Run the App
 
 # Bash
+
 python weather_bot.py
 
 ## The Logic Behind the Code
@@ -47,6 +60,7 @@ I moved beyond simple if-else statements to create a more helpful assistant:
 Humidity Impact: If (FeelsLike - ActualTemp) > 3°C → Trigger "Sticky/Muggy" warning.
 Wind Safety: If WindSpeed > 6 m/s → Trigger "Secure loose items" warning.
 Regional Tuning:
+
 < 20°C: Cool/Chilly
 20°C - 30°C: Pleasant (Cotton clothes)
 > 30°C: Hot
@@ -64,6 +78,7 @@ Uses sunrise < current_time < sunset to determine if sunglasses are actually nee
 └── README.md         # Project documentation
 
 ##Future Improvements
+
 [ ] Add a GUI using Tkinter or Streamlit.
 
 [ ] Support for 5-day forecasts.
